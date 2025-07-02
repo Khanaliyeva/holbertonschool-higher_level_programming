@@ -14,8 +14,8 @@ class Student:
     def to_json(self, attrs=None):
         """Return dictionary representation of the Student instance.
 
-        If attrs is a list of strings, only attributes in attrs are included.
-        Otherwise, all attributes are included.
+        If attrs is a list of strings, only attributes in attrs
+        are included. Otherwise, all attributes are included.
         """
         if isinstance(attrs, list) and all(isinstance(attr, str) for attr in attrs):
             return {attr: getattr(self, attr) for attr in attrs if hasattr(self, attr)}
