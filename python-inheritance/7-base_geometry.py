@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""
+
+"""Defines a base geometry class BaseGeometry.
 Module BaseGeometry
-Defines class BaseGeometry with methods area and integer_validator
-"""
+7"""
+
 
 class BaseGeometry:
     """Reprsent base geometry."""
