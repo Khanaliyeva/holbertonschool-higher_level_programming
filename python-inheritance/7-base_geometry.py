@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-
-"""Defines a base geometry class BaseGeometry.
-Module BaseGeometry
-7"""
+# 7-base_geometry.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines a base geometry class BaseGeometry."""
 
 
 class BaseGeometry:
