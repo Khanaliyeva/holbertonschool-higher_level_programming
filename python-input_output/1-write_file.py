@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a function that writes a string to a UTF-8 text file."""
+"""Defines a function that writes text to a UTF-8 file."""
 
 
 def write_file(filename="", text=""):
