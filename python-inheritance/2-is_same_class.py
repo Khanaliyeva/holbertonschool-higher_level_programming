@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Module 2-is_same_class
 Contains the function is_same_class to check if an object is exactly
