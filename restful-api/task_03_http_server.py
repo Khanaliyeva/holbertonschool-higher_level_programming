@@ -44,12 +44,12 @@ class SimpleAPIHandler(http.server.BaseHTTPRequestHandler):
             }
             self.wfile.write(json.dumps(info).encode("utf-8"))
 
-        # Tanınmayan endpoint
+        # Tanınmayan endpoin
         else:
             self.send_response(404)
             self.send_header("Content-type", "application/json")
             self.end_headers()
-            error = {"error": "Endpoint not found"}
+            error = {"message": "Endpoint not found"}
             self.wfile.write(json.dumps(error).encode("utf-8"))
 
 # Serveri işə sal
